@@ -1,4 +1,4 @@
-# Exemplo de configuração utilização de Docker com NodeJs
+# Exemplo de configuração utilizando NodeJs com Docker
 
 Nesse repositório você encontra um exemplo de ambiente de desenvolvimento utilizando Docker, node, express, nodemon e debug com vscode.
 
