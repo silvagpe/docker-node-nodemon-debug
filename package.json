@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-inspect": "^2.0.0"
+  },
+  "scripts": {
+    "start": "npx nodemon --inspect=0.0.0.0:9229 -L server.js",
+    "debug": "npx nodemon --inspect -L server.js"
+  }
+}
